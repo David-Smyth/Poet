@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFB65C3B196F32160073007F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB65C3A196F32160073007F /* main.swift */; };
+		DFB65C3D196F32160073007F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB65C3C196F32160073007F /* AppDelegate.swift */; };
+		DFB65C40196F32160073007F /* Launch_Energy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFB65C3E196F32160073007F /* Launch_Energy.xcdatamodeld */; };
+		DFB65C42196F32160073007F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB65C41196F32160073007F /* Images.xcassets */; };
+		DFB65C45196F32160073007F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFB65C43196F32160073007F /* MainMenu.xib */; };
+		DFB65C51196F32160073007F /* Launch_EnergyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB65C50196F32160073007F /* Launch_EnergyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFB65C4B196F32160073007F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFB65C2D196F32160073007F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFB65C34196F32160073007F;
+			remoteInfo = "Launch Energy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFB65C35196F32160073007F /* Launch Energy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Launch Energy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB65C39196F32160073007F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB65C3A196F32160073007F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DFB65C3C196F32160073007F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFB65C3F196F32160073007F /* Launch_Energy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Launch_Energy.xcdatamodel; sourceTree = "<group>"; };
+		DFB65C41196F32160073007F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFB65C44196F32160073007F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DFB65C4A196F32160073007F /* Launch EnergyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Launch EnergyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB65C4F196F32160073007F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB65C50196F32160073007F /* Launch_EnergyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch_EnergyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFB65C32196F32160073007F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB65C47196F32160073007F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFB65C2C196F32160073007F = {
+			isa = PBXGroup;
+			children = (
+				DFB65C37196F32160073007F /* Launch Energy */,
+				DFB65C4D196F32160073007F /* Launch EnergyTests */,
+				DFB65C36196F32160073007F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFB65C36196F32160073007F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFB65C35196F32160073007F /* Launch Energy.app */,
+				DFB65C4A196F32160073007F /* Launch EnergyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFB65C37196F32160073007F /* Launch Energy */ = {
+			isa = PBXGroup;
+			children = (
+				DFB65C3C196F32160073007F /* AppDelegate.swift */,
+				DFB65C41196F32160073007F /* Images.xcassets */,
+				DFB65C43196F32160073007F /* MainMenu.xib */,
+				DFB65C3E196F32160073007F /* Launch_Energy.xcdatamodeld */,
+				DFB65C38196F32160073007F /* Supporting Files */,
+			);
+			path = "Launch Energy";
+			sourceTree = "<group>";
+		};
+		DFB65C38196F32160073007F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFB65C39196F32160073007F /* Info.plist */,
+				DFB65C3A196F32160073007F /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFB65C4D196F32160073007F /* Launch EnergyTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFB65C50196F32160073007F /* Launch_EnergyTests.swift */,
+				DFB65C4E196F32160073007F /* Supporting Files */,
+			);
+			path = "Launch EnergyTests";
+			sourceTree = "<group>";
+		};
+		DFB65C4E196F32160073007F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFB65C4F196F32160073007F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFB65C34196F32160073007F /* Launch Energy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB65C54196F32160073007F /* Build configuration list for PBXNativeTarget "Launch Energy" */;
+			buildPhases = (
+				DFB65C31196F32160073007F /* Sources */,
+				DFB65C32196F32160073007F /* Frameworks */,
+				DFB65C33196F32160073007F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Launch Energy";
+			productName = "Launch Energy";
+			productReference = DFB65C35196F32160073007F /* Launch Energy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFB65C49196F32160073007F /* Launch EnergyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB65C57196F32160073007F /* Build configuration list for PBXNativeTarget "Launch EnergyTests" */;
+			buildPhases = (
+				DFB65C46196F32160073007F /* Sources */,
+				DFB65C47196F32160073007F /* Frameworks */,
+				DFB65C48196F32160073007F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFB65C4C196F32160073007F /* PBXTargetDependency */,
+			);
+			name = "Launch EnergyTests";
+			productName = "Launch EnergyTests";
+			productReference = DFB65C4A196F32160073007F /* Launch EnergyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFB65C2D196F32160073007F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Millennium Space Systems";
+				TargetAttributes = {
+					DFB65C34196F32160073007F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					DFB65C49196F32160073007F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = DFB65C34196F32160073007F;
+					};
+				};
+			};
+			buildConfigurationList = DFB65C30196F32160073007F /* Build configuration list for PBXProject "Launch Energy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFB65C2C196F32160073007F;
+			productRefGroup = DFB65C36196F32160073007F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFB65C34196F32160073007F /* Launch Energy */,
+				DFB65C49196F32160073007F /* Launch EnergyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFB65C33196F32160073007F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB65C42196F32160073007F /* Images.xcassets in Resources */,
+				DFB65C45196F32160073007F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB65C48196F32160073007F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFB65C31196F32160073007F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB65C3D196F32160073007F /* AppDelegate.swift in Sources */,
+				DFB65C40196F32160073007F /* Launch_Energy.xcdatamodeld in Sources */,
+				DFB65C3B196F32160073007F /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB65C46196F32160073007F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB65C51196F32160073007F /* Launch_EnergyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFB65C4C196F32160073007F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFB65C34196F32160073007F /* Launch Energy */;
+			targetProxy = DFB65C4B196F32160073007F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFB65C43196F32160073007F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB65C44196F32160073007F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFB65C52196F32160073007F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFB65C53196F32160073007F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DFB65C55196F32160073007F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Launch Energy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFB65C56196F32160073007F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Launch Energy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DFB65C58196F32160073007F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Launch Energy.app/Contents/MacOS/Launch Energy";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Launch EnergyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		DFB65C59196F32160073007F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Launch Energy.app/Contents/MacOS/Launch Energy";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Launch EnergyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFB65C30196F32160073007F /* Build configuration list for PBXProject "Launch Energy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB65C52196F32160073007F /* Debug */,
+				DFB65C53196F32160073007F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB65C54196F32160073007F /* Build configuration list for PBXNativeTarget "Launch Energy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB65C55196F32160073007F /* Debug */,
+				DFB65C56196F32160073007F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFB65C57196F32160073007F /* Build configuration list for PBXNativeTarget "Launch EnergyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB65C58196F32160073007F /* Debug */,
+				DFB65C59196F32160073007F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DFB65C3E196F32160073007F /* Launch_Energy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DFB65C3F196F32160073007F /* Launch_Energy.xcdatamodel */,
+			);
+			currentVersion = DFB65C3F196F32160073007F /* Launch_Energy.xcdatamodel */;
+			path = Launch_Energy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DFB65C2D196F32160073007F /* Project object */;
+}
